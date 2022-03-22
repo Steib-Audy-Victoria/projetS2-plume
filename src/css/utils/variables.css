@@ -1,6 +1,33 @@
 :root {
-    
+    /* Color styles */
+    --pourpre: rgba(170, 9, 94, 1);
+    --orange: rgba(251, 169, 25, 1);
+    --gris: rgba(126, 126, 126, 1);
+    --rouge: rgba(255, 0, 0, 1);
+    --noir: rgba(0, 0, 0, 1);
+    --blanc: rgba(255, 255, 255, 1);
+    --jaune: rgba(254, 230, 12, 1);
+
+    /* Text-size styles */
+    --titre: 48px;
+    --titre-2: 72px;
+    --intro: 22px;
+    --h2: 40px;
+    --paragraphe: 24px;
+    --bouton: 30px;
+    --bouton-formulaire: 20px;
+    --micro: 18px;
+    --micro-bouton: 16px;
+    --micro-lien: 14px;
+
+
     /* Font-family styles */
     --font-Baloo: 'Baloo 2', cursive;
     --font-Praise: 'Praise', cursive;
+
+        /* Espaces */
+    --space1x: 8px;
+    --space2x: 16px;
+    --space3x: 24px;
+    --space4x: 48px;
 }

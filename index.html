@@ -12,14 +12,19 @@
 </head>
 
 <body>
-    <header>
-        <img src="#" alt="logo du site plume, en version blanche, qui représente une plume et également la tête d'un phoénix">
-        <h1>Plume</h1>
-        <a href="connecter.html">Se connecter</a>
-        <a href="inscrire.html">S'inscrire</a>
+    <header class="grid header1">
+        <div class="d1">
+            <img class="header_logo1" src="public/img/Logo_Plume_Blanc.svg" alt="logo du site plume, en version blanche, qui représente une plume et également la tête d'un phoénix">
+            <h1 class="header_txt1">Plume</h1>
+        </div>
+        <div class="d2">
+            <a class="head_a a1" href="connecter.html">Se connecter</a>
+            <a class="head_a a2" href="inscrire.html">S'inscrire</a>
+        </div>
     </header>
 
     <main>
+
         <h2>Leur plume sublime la votre</h2>
         <p>Grâce à Plume transformez le dessin de votre enfant ou le votre. 
             Trouvez l’artiste qui vous convient et qui recréera votre œuvre. 
@@ -50,44 +55,45 @@
             Faites plaisir à plus qu’un enfant. Notre plateforme redirige une partie des revenus générés par la vente d'œuvre à l’ONG Enfant du désert qui lutte pour les enfants des pays défavorisés en leur fournissant matériel et éducation.
         </p>
 
-        <h3>Inscrivez-vous !</h3>
+        <h2>Inscrivez-vous !</h2>
         <form action="">
             <label for="mail"></label>
             <input type="email" id="mail" name="user_mail" value="E-mail">
             <button type="submit">S'inscrire</button>
         </form>
-
-        <footer>
-            <h4>NOUS CONTACTER</h4>
-            <form action="">
-                <label for="mail"></label>
-                <input type="email" id="mail" name="mail" value="Votre E-mail">
-                <label for="msg"></label>
-                <textarea name="message" id="msg" cols="30" rows="10">Votre message</textarea>
-                <button type="submit">Envoyer</button>
-            </form>
-
-            <h4>EXPLORER</h4>
-            <nav>
-                <ul>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Nous soutenir</a></li>
-                    <li><a href="#">Mentions Légales</a></li>
-                </ul>
-            </nav>
-
-            <nav>
-                <ul>
-                    <li><img src="#" alt="logo instagram"></li>
-                    <li><img src="#" alt="logo twitter"></li>
-                    <li><img src="#" alt="logo facebook"></li>
-                </ul>
-            </nav>
-
-            <img src="#" alt="logo du site plume, en version couleur, qui représente une plume et également la tête d'un phoénix">
-            <h1>Plume</h1>
-        </footer>
     </main>
+
+    <footer>
+        <h3>NOUS CONTACTER</h3>
+        <form action="">
+            <label for="mail"></label>
+            <input type="email" id="mail" name="mail" value="Votre E-mail">
+            <label for="msg"></label>
+            <textarea name="message" id="msg" cols="30" rows="10">Votre message</textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <h3>EXPLORER</h3>
+        <nav>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Nous soutenir</a></li>
+                <li><a href="#">Mentions Légales</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul>
+                <li><img src="#" alt="logo instagram"></li>
+                <li><img src="#" alt="logo twitter"></li>
+                <li><img src="#" alt="logo facebook"></li>
+            </ul>
+        </nav>
+
+        <img src="public/img/Logo_Plume_Blanc_2.svg" alt="logo du site plume, en version blanche, qui représente une plume et également la tête d'un phoénix">
+        <h1>Plume</h1>
+    </footer>
+    
 
 </body>
 
