@@ -80,3 +80,12 @@
 }
 
 /*mise en forme du footer 2*/
+
+.f2list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f2link {
+    color: var(--gris);
+}
