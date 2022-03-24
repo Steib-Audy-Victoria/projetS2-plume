@@ -1,4 +1,6 @@
-footer {
+/*mise en forme du footer 1*/
+
+.footer1 {
     height: 550px;
     background-color: var(--noir);
 }
@@ -76,3 +78,5 @@ footer {
 .ficon {
     margin: 0 10px;
 }
+
+/*mise en forme du footer 2*/

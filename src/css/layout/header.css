@@ -1,3 +1,5 @@
+/*mise en forme du header 1*/
+
 .header1 {
     height: 98px;
     background-color: var(--rouge);
@@ -57,3 +59,6 @@
     border-radius: 18px;
     padding: 3%;
 }
+
+
+/*mise en forme du header 2*/
