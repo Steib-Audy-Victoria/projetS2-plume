@@ -18,6 +18,10 @@ main {
     padding: var(--space1x);
 }
 
+.color2 {
+  background-color: var(--fond2);
+}
+
 /* Les règles typographiques générales des titres */
 h1 {
   font-family: var(--font-Praise);

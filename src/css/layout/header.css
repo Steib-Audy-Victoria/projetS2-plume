@@ -62,3 +62,14 @@
 
 
 /*mise en forme du header 2*/
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head2_titre {
+    color: var(--pourpre);
+    margin-left: 10px;
+}
