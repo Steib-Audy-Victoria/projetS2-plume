@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 
 .head_a {
@@ -25,21 +26,18 @@
     font-size: var(--bouton);
 }
 
-.d1 {
+.hd1 {
     display: flex;
     justify-content: space-between;
-    column-gap: 14%;
 }
 
-.d2 {
-    grid-column: 0;
+.hd2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 10%;
 }
 
-.a1 {
+.ha1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +45,7 @@
     color: var(--blanc);
 }
 
-.a2 {
+.ha2 {
     display: flex;
     justify-content: center;
     align-items: center;
