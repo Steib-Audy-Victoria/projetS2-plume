@@ -1,0 +1,88 @@
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--blanc);
+    box-shadow: 0 0 1rem var(--gris);
+    margin: 0 30%;
+    padding: 3% 0;
+}
+
+.none {
+    border: none;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form2 >input {
+    width: 150%;
+    margin: 3%;
+    color: var(--gris-clair);
+}
+
+.form_titre {
+    margin-bottom: 10px;
+    color: var(--gris);
+    font-weight: bold;
+}
+
+.form2 > button {
+    margin-top: 10px;
+    background-color: var(--orange);
+    border-radius: 6px;
+    padding: 2% 58%;
+}
+
+.form_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid var(--gris-clair);
+    border-radius: 6px;
+    margin-bottom: 8%;
+    box-shadow: 10px 5px 5px var(--gris);
+    padding: 0px 30px;
+
+}
+
+.form_btn >p {
+    margin-left: 10px;
+    color: var(--gris);
+    font-weight: bold;
+}
+
+.btn_co {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--blanc);
+    background-color: var(--rouge);
+    border-radius: 6px;
+    padding: 4px 90px;
+}
+
+.f_ou {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gris3);
+}
+
+.ill_form {
+    position: fixed;
+    left: 869px;
+    top: 411px;
+}

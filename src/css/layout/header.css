@@ -63,10 +63,11 @@
 
 /*mise en forme du header 2*/
 
-.header2 {
+.aheader2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .head2_titre {

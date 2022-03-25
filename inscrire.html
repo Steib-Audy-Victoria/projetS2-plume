@@ -12,11 +12,50 @@
 </head>
 <body class="color2">
     <header class="header2">
-        <img src="public/img/Logo_Plume_couleur.svg" alt="logo du site plume, en version couleur, qui représente une plume et également la tête d'un phoénix">
-        <h1 class="head2_titre">Plume</h1>
+        <a class="aheader2" href="index.html">
+            <img src="public/img/Logo_Plume_couleur.svg" alt="logo du site plume, en version couleur, qui représente une plume et également la tête d'un phoénix">
+            <h1 class="head2_titre">Plume</h1>
+        </a>
     </header>
     <main>
+        <img class="ill_form" src="public/img/phenix2.svg" alt="Illustration d'un Phénix">
+        <div class="form">
+            <fieldset class="none">
+                <legend class="form_titre">Créez votre compte</legend>
+                <form class="form2" action="">
+                    <label for="Email"></label>
+                    <input type="email" name="Email" id="Email" value="Votre E-mail">
 
+                    <label for="Nom"></label>
+                    <input type="text" name="Nom" id="Nom" value="Votre Nom">
+
+                    <label for="Prenom"></label>
+                    <input type="text" name="Prenom" id="prenom" value="Votre Prénom">
+
+                    <label for="Pseudo"></label>
+                    <input type="text" name="Pseudo" id="Pseudo" value="Votre Pseudo">
+
+                    <label for="mdp"></label>
+                    <input type="password" name="mdp" id="mdp" value="Votre Mot de passe">
+
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </fieldset>
+
+            <p class="f_ou">OU</p>
+
+            <fieldset class="none column">
+                <button class="form_btn"><img src="public/img/logo_google.svg" alt="Logo Google"><p>Continuer avec Google</p></button>
+                <button class="form_btn"><img src="public/img/logo_apple.svg" alt="Logo Apple"><p>Continuer avec Apple</p></button>
+                <button class="form_btn"><img src="public/img/logo_Facebook2.svg" alt="Logo Facebook"><p>Continuer avec Facebook</p></button>
+            </fieldset>
+
+            <p class="f_ou">OU</p>
+
+            <fieldset class="none">
+                <a class="btn_co" href="connecter.html">Se connecter</a>
+            </fieldset>
+        </div>
     </main>
 
     <footer class="footer2">

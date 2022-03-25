@@ -8,6 +8,8 @@
     --blanc: rgba(255, 255, 255, 1);
     --jaune: rgba(254, 230, 12, 1);
     --fond2: rgba(239, 235, 234, 1);
+    --gris-clair: rgba(204, 204, 204, 1);
+    --gris3: rgba(159, 159, 159, 1);
 
     /* Text-size styles */
     --titre: 48px;

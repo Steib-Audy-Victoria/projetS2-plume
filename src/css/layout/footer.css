@@ -81,6 +81,11 @@
 
 /*mise en forme du footer 2*/
 
+.footer2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .f2list {
     display: flex;
     justify-content: space-around;
