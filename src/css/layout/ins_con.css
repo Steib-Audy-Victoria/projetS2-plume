@@ -38,12 +38,22 @@
     font-weight: bold;
 }
 
-.form2 > button {
+.btn_form {
     margin-top: 10px;
     background-color: var(--orange);
+    color: var(--blanc);
     border-radius: 6px;
     padding: 2% 58%;
 }
+
+.btn_con {
+    margin-top: 10px;
+    background-color: var(--rouge);
+    color: var(--blanc);
+    border-radius: 6px;
+    padding: 2% 58%;
+}
+
 
 .form_btn {
     display: flex;
@@ -85,4 +95,8 @@
     position: fixed;
     left: 869px;
     top: 411px;
+}
+
+.fa {
+    color: var(--pourpre);
 }
