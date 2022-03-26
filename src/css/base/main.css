@@ -28,6 +28,11 @@ p {
   background-color: var(--fond2);
 }
 
+.margin {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
 .padding_left {
   padding-left: 9%;
 }

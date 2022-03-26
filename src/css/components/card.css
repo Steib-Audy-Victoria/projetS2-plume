@@ -1,0 +1,59 @@
+/*mise en forme des card droite et gauche de l'index*/
+
+.card1 {
+    background-color: var(--blanc);
+    box-shadow: 5px 5px 7px 7px var(--gris-clair);
+    border-radius: 15px;
+    margin-right: 5%;
+}
+
+.card2 {
+    background-color: var(--blanc);
+    box-shadow: -5px 5px 7px 7px var(--gris-clair);
+    border-radius: 15px;
+    margin-left: 5%;
+}
+
+/*mise en place de la card de fin de l'index*/
+
+.cardfin {
+    background-image: url("../../../public/img/logo_plume_fond.svg"), linear-gradient(rgba(251, 169, 25, 1), rgba(255, 0, 0, 1));
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 10px;
+    margin: 3% 10%;
+    padding-top: 0.1%;
+    padding-bottom: 3%;
+
+}
+
+.cf1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cf2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tthc {
+    color: var(--blanc);
+}
+
+.ttfc > input {
+    background-color: var(--gris-clair);
+    color: var(--gris);
+    border-radius: 6px;
+    padding: 0.3%;
+}
+
+.ttfc > button {
+    background-color: var(--pourpre);
+    color: var(--blanc);
+    margin-left: 1%;
+    border-radius: 6px;
+    padding: 0.5% 3%;
+}
