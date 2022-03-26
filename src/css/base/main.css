@@ -8,8 +8,8 @@
 /*mise en place de la grille*/
 .grid {
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 5px;
 }
 
@@ -18,8 +18,22 @@ main {
     padding: var(--space1x);
 }
 
+p {
+  font-family: var(--font-Baloo);
+  font-size: var(--paragraphe);
+  font-weight: 500;
+}
+
 .color2 {
   background-color: var(--fond2);
+}
+
+.padding_left {
+  padding-left: 9%;
+}
+
+.bold {
+  font-weight: 800;
 }
 
 /* Les règles typographiques générales des titres */
@@ -33,9 +47,21 @@ h2 {
   font-family: var(--font-Baloo);
   font-size: var(--h2);
   font-weight: bold;
+  padding-left: 15px;
+}
+
+.titleh2 {
+  display: flex;
+  padding-left: 25px;
 }
 
 h3 {
+  font-family: var(--font-Baloo);
+  font-size: var(--h2);
+  font-weight: 500;
+}
+
+h4 {
   font-family: var(--font-Baloo);
   font-size: var(--paragraphe);
   color: var(--orange);
