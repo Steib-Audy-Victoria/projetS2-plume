@@ -1,0 +1,17 @@
+.p1 {
+    grid-row: 1/1;
+}
+
+.p2 {
+    grid-row: 2/2;
+    padding-left: 8%;
+    padding-right: 30%;
+}
+
+.ptt {
+    display: flex;
+    padding-left: 25px;
+}
+.ptt > h3 {
+    padding-left: 15px;
+}
