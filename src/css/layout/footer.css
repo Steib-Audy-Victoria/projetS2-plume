@@ -33,6 +33,7 @@
 
 .ff > label, .ff>input, .ff > textarea{
     display: block;
+    font-family: var(--font-Baloo);
     background-color: var(--gris);
     color: var(--blanc);
     border: none;
@@ -42,12 +43,14 @@
 
 .ff > button {
     display: block;
+    font-family: var(--font-Baloo);
     background-color: var(--orange);
     padding: 2% 15%;
     border-radius: 8px;
 }
 
 .flinkitem {
+    font-family: var(--font-Baloo);
     padding: 15% 0%;
 }
 

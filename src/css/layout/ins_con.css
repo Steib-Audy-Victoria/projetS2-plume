@@ -30,6 +30,7 @@
     width: 150%;
     margin: 3%;
     color: var(--gris-clair);
+    font-family: var(--font-Baloo);
 }
 
 .form_titre {
@@ -59,6 +60,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: var(--font-Baloo);
     border: solid var(--gris-clair);
     border-radius: 6px;
     margin-bottom: 8%;
@@ -98,5 +100,6 @@
 }
 
 .fa {
+    font-family: var(--font-Baloo);
     color: var(--pourpre);
 }

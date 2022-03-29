@@ -44,6 +44,7 @@
 }
 
 .ttfc > input {
+    font-family: var(--font-Baloo);
     background-color: var(--gris-clair);
     color: var(--gris);
     border-radius: 6px;
@@ -51,6 +52,7 @@
 }
 
 .ttfc > button {
+    font-family: var(--font-Baloo);
     background-color: var(--pourpre);
     color: var(--blanc);
     margin-left: 1%;

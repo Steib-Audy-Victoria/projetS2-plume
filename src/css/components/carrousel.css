@@ -1,0 +1,41 @@
+.carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+div#slider {
+    width: 80%;
+    max-width: 750px;
+    overflow: hidden;
+}
+
+div#slider figure {
+    position: relative;
+    width: 300%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+}
+
+div#slider figure img {
+    width: 33,3%;
+    height: auto;
+    float: left;
+}
+
+
+@keyframes slidy {
+  0% { left: 0%; }
+  30% { left: 0%; }
+  33.3% { left: -100%; }
+  63.3% { left: -100%; }
+  66.6% { left: -200%; }
+  96.6% { left: -200%; }
+  100% { left: 0%; }
+}
+

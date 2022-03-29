@@ -12,6 +12,7 @@
 }
 
 .mail > input {
+    font-family: var(--font-Baloo);
     color: var(--gris-clair);
     border-radius: 5px;
     padding: 1%;
@@ -19,6 +20,7 @@
 }
 
 .mail > button {
+    font-family: var(--font-Baloo);
     color: var(--blanc);
     background-color: var(--orange);
     border-radius: 6px;
