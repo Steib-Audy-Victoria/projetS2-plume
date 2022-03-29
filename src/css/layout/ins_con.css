@@ -49,12 +49,13 @@
 }
 
 .btn_con {
+    width: 157px;
     margin-top: 10%;
     background-color: var(--rouge);
     color: var(--blanc);
     font-family: var(--font-Baloo);
     border-radius: 6px;
-    padding: 2% 58%;
+    padding: 5%;
 }
 
 
@@ -62,7 +63,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--font-Baloo);
     border: solid var(--gris-clair);
     border-radius: 6px;
     margin-bottom: 8%;
@@ -70,9 +70,9 @@
     padding: 0% 4%;
 }
 
-.tbtn {
+.btn_p {
     font-family: var(--font-Baloo);
-    font-size: var(--micro-bouton);
+    font-size: var(--micro-bouton);   
 }
 
 .form_btn >p {

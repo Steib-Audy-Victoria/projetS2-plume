@@ -5,7 +5,8 @@
     color: var(--blanc);
     box-shadow: 5px 5px 7px 7px var(--gris-clair);
     border-radius: 15px;
-    margin: 0% 20%
+    margin: 0% 20%;
+    padding: 0% 2%;
 
 }
 
@@ -14,25 +15,26 @@
     box-shadow: -5px 5px 7px 7px var(--gris-clair);
     border-radius: 15px;
     margin-left: 5%;
+    padding: 0% 2%;
 }
 
-/*mise en place de la card de fin de l'index*/
+/*mise en place de la card de fin de l'index (section 6)*/
 
 .cardfin {
     background-image: url("../../../public/img/logo_plume_fond.svg"), linear-gradient(rgba(251, 169, 25, 1), rgba(255, 0, 0, 1));
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     border-radius: 10px;
     margin: 3% 10%;
     padding-top: 0.1%;
     padding-bottom: 3%;
-
 }
 
 .cf1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    color: var(--blanc);
+    margin-left: 10%;
 }
 
 .cf2 {
@@ -41,9 +43,6 @@
     align-items: center;
 }
 
-.tthc {
-    color: var(--blanc);
-}
 
 .ttfc > input {
     font-family: var(--font-Baloo);

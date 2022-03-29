@@ -41,10 +41,21 @@
     margin: 5% 0%;
 }
 
+.ff>input {
+    padding: 2%;
+}
+
+.ff>textarea {
+    padding: 2%;
+}
+
 .ff > button {
     display: block;
     font-family: var(--font-Baloo);
+    font-size: var(--bouton);
+    font-weight: 600;
     background-color: var(--orange);
+    color: var(--blanc);
     padding: 2% 15%;
     border-radius: 8px;
 }
