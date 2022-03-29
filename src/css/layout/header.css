@@ -82,6 +82,8 @@
 }
 
 .head2_titre {
+    font-family: var(--font-Praise);
+    font-size: var(--titre);
     color: var(--pourpre);
     margin-left: 10px;
 }
