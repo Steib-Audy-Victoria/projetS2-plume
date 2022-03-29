@@ -15,7 +15,7 @@
 
 /* Les règles typographiques générales qui s'appliquent à tout le site */
 main {
-    padding: var(--space1x);
+  padding: var(--space1x);
 }
 
 p {
@@ -24,6 +24,15 @@ p {
   font-weight: 500;
 }
 
+a {
+  font-family: var(--font-Baloo);
+}
+
+legend {
+  font-family: var(--font-Baloo);
+  color: var(--gris);
+  font-weight: bold;
+}
 .color2 {
   background-color: var(--fond2);
 }
@@ -41,11 +50,15 @@ p {
   font-weight: 800;
 }
 
+.a_none {
+  text-decoration: none;
+}
+
 /* Les règles typographiques générales des titres */
 h1 {
-  font-family: var(--font-Praise);
-  font-size: var(--titre);
-  color: var(--blanc);
+  font-family: var(--font-Baloo);
+  font-size: var(--h1);
+  color: var(--noir);
 }
 
 h2 {
@@ -61,15 +74,10 @@ h2 {
 }
 
 h3 {
-  font-family: var(--font-Baloo);
-  font-size: var(--h2);
-  font-weight: 500;
-}
-
-h4 {
-  font-family: var(--font-Baloo);
-  font-size: var(--paragraphe);
   color: var(--orange);
+  font-family: var(--font-Baloo);
+  font-size: var(--h3);
+  font-weight: 500;
 }
 
 

@@ -14,8 +14,12 @@
 <body>
     <header class="header1">
         <div class="hd1">
-            <img class="header_logo1" src="public/img/Logo_Plume_Blanc.svg" alt="logo du site plume, en version blanche, qui représente une plume et également la tête d'un phoénix">
-            <h1 class="header_txt1">Plume</h1>
+            <a class="a_none" href="index.html">
+                <div class="head_a1">
+                    <img class="header_logo1" src="public/img/Logo_Plume_Blanc.svg" alt="logo du site plume, en version blanche, qui représente une plume et également la tête d'un phoénix">
+                    <p class="header_txt1">Plume</p>
+                </div>
+            </a>
         </div>
         <div class="hd2">
             <a class="head_a ha1" href="connecter.html">Se connecter</a>
@@ -24,9 +28,10 @@
     </header>
 
     <main>
+        <!--section 1 de la page d'accueil-->
         <section class="grid margin">
             <div class="id1 fip">
-                <h2>Grâce à Phénix transformez le dessin de votre enfant ou le votre</h2>
+                <h1>Grâce à Phénix transformez le dessin de votre enfant ou le votre</h1>
                 <p class="ig">Grâce à Phénix transformez le dessin de votre enfant ou le votre. 
                     Trouvez l’artiste qui vous convient et qui recréera votre œuvre. 
                     Un cadeau original et unique ? Un modèle pour s’améliorer ? Un plaisir personnel ? Plume comprends tout cela pour vous.
@@ -34,38 +39,49 @@
                 <form class="mail" action="">
                     <label for="mail"></label>
                     <input type="email" id="mail" name="user_mail" value="E-mail">
-                    <button type="submit">Inscrivez-vous !</button>
+                    <button type="submit"><a class="a_none mail_a" href="inscrire.html">Inscrivez-vous !</a></button>
                 </form>
             </div>
 
             <img class="id2 fip" src="public/img/phoenix_illust.svg" alt="illustration de la mascotte qui est un phoénix">
         </section>
 
+        <!--section 2 de la page d'accueil-->
         <section class="grid margin">
-            <img class="id1 fip" src="public/img/telephone_illust.svg" alt="illustration d'un téléphone, pour montrer le coté communication du site">
-            <div class="id2 fip card1">
-                <h3>Sublimer</h3>
+            <img class="id1 fip" src="public/img/mockup.svg" alt="mockup de l'application finale">
+            <p class="id2 fip p_mock">Profitez d'une interface simple et gratuite qui vous permettra de profiter de tout nos services rapidement.</p>
+        </section>
+
+        <!--section 3 (partie rouge) de la page d'accueil-->
+        <section class="grid margin sect_rouge">
+            <div class="s1rouge">
+                <h2>SUBLIMER</h2>
                 <p>Plume est une plateforme collaborative où clients et artistes se rencontrent et échangent dans un but commun, sublimer. <br>
-                    Plume se base sur l’envie de sublimer une œuvre d’enfant, d’ado, d’adulte, la plateforme est ouverte à toutes et tous. <br>
-                    Trouvez un artiste avec le style qui vous plaît et discutez avec lui de vos envies pour l'œuvre à sublimer.
-                </p>
+                Plume se base sur l’envie de sublimer une œuvre d’enfant, d’ado, d’adulte, la plateforme est ouverte à toutes et tous. <br>
+                Trouvez un artiste avec le style qui vous plaît et discutez avec lui de vos envies pour l'œuvre à sublimer.</p>
+            </div>
+
+            <div class="s2rouge">
+                <img class="sri1" src="public/img/image_1.svg" alt="image d'un dessin d'un enfant">
+                <img class="sri2" src="public/img/image_2.svg" alt="image du dessin de l'enfant sublimer par un artiste">
             </div>
         </section>
 
+        <!--section 4 de la page d'accueil-->
         <section class="grid margin">
             <div class="id1 fip card2">
-                <h3>Concevoir</h3>
-                <p>L’artiste se chargera donc de transformer ce petit bout d’art en pièce unique pour vous.
+                <h2>Concevoir</h2>
+                <p>L’artiste se chargera donc de transformer ce petit bout d’art en pièce unique pour vous. <br>
                     Voyez votre dessin, peinture, croquis, idée revivre sous la plume d’un artiste professionnel, passionné et expérimenté.
                 </p>
             </div>
             <img class="id2 fip" src="public/img/peinture_illust.svg" alt="illustration de personne qui font de la peinture">
         </section>
 
+        <!--section 5 de la page d'accueil-->
         <section class="grid margin">
-            <img class="id1 fip" src="public/img/donate_illust.svg" alt="illustration pour la donation">
             <div class="id2 fip card1">
-                <h3>Sécuriser</h3>
+                <h2>Sécuriser</h2>
                 <p>Notre système garantit un échange sécurisé entre client et artiste, soyez assuré de recevoir votre dû sans problème grace à un paiement 100% sécurisé. 
                     Faites plaisir à plus qu’un enfant. <br>
                     Notre plateforme redirige une partie des revenus générés par la vente d'œuvre à l’ONG Enfant du désert qui lutte pour les enfants des pays défavorisés en leur fournissant matériel et éducation.
@@ -73,12 +89,13 @@
             </div>
         </section>
 
+        <!--section 6 de la page d'accueil-->
         <section class="cardfin">
             <h2 class="cf1 tthc">Inscrivez-vous !</h2>
             <form class="cf2 ttfc" action="">
                 <label for="mail"></label>
                 <input type="email" id="mail" name="user_mail" value="E-mail">
-                <button type="submit">S'inscrire</button>
+                <button type="submit"><a class="a_none mail_a" href="inscrire.html">S'inscrire</a></button>
             </form>
         </section>
     </main>
@@ -87,7 +104,7 @@
 
         <div class="fh1">
             <div class="f1">
-                <h4>NOUS CONTACTER</h4>
+                <h3>NOUS CONTACTER</h3>
                 <form class="ff" action="">
                     <label for="mail"></label>
                     <input type="email" id="mail" name="mail" value="Votre E-mail">
@@ -98,12 +115,12 @@
             </div>
 
             <div class="f2">
-                <h4>EXPLORER</h4>
+                <h3 class="f2h">EXPLORER</h3>
                 <nav>
                     <ul class="list-unstyled">
-                        <li class="flinkitem"><a class="flink" href="#">A propos</a></li>
+                        <li class="flinkitem"><a class="flink" href="propos.html">A propos</a></li>
                         <li class="flinkitem"><a class="flink" href="soutenir.html">Nous soutenir</a></li>
-                        <li class="flinkitem"><a class="flink" href="#">Mentions Légales</a></li>
+                        <li class="flinkitem"><a class="flink" href="mention_legal.html">Mentions Légales</a></li>
                     </ul>
                 </nav>
             </div>
@@ -122,7 +139,7 @@
             <div class="fb2">
                 <img src="public/img/Logo_Plume_Blanc_2.svg"
                     alt="logo du site plume, en version blanche, qui représente une plume et également la tête d'un phoénix">
-                <h1>Plume</h1>
+                <p class="title_footer">Plume</p>
             </div>
             <div>
                 <p class="fp">© 2022 Phénix</p>

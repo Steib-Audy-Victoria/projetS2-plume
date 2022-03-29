@@ -17,10 +17,19 @@
 }
 
 .header_txt1 {
+    color: var(--blanc);
+    font-family: var(--font-Praise);
+    font-size: var(--titre);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    margin-top: 12%;
+}
+
+.head_a1 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .head_a {
@@ -40,11 +49,13 @@
 }
 
 .ha1 {
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none ;
     color: var(--blanc);
+    flex: 2 1 auto;
 }
 
 .ha2 {

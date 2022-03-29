@@ -15,14 +15,16 @@
     --titre: 48px;
     --titre-2: 72px;
     --intro: 22px;
-    --h2: 40px;
-    --paragraphe: 24px;
+    --paragraphe: 29px;
     --bouton: 30px;
     --bouton-formulaire: 20px;
     --micro: 18px;
+    --h3: 24px;
     --micro-bouton: 16px;
     --micro-lien: 14px;
-
+    --h1: 54px;
+    --h2: 45px;
+ 
 
     /* Font-family styles */
     --font-Baloo: 'Baloo 2', cursive;
