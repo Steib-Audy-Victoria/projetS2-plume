@@ -32,14 +32,11 @@
     font-size: var(--h3);
 }
 
-.mail > button {
+.mail_a {
     background-color: var(--orange);
     border-radius: 6px;
     padding: 0.6% 4%;
     margin-left: 2%;
-}
-
-.mail_a {
     font-family: var(--font-Baloo);
     font-size: var(--bouton);
     font-weight: 500;

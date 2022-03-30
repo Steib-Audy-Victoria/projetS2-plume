@@ -59,11 +59,14 @@
     font-size: var(--h3);
 }
 
-.ttfc > button {
+.mail_a2 {
     font-family: var(--font-Baloo);
     background-color: var(--noir);
+    font-size: var(--bouton);
+    font-weight: 500;
     color: var(--blanc);
+    padding: 0.1% 4%;
+    margin-left: 2%;
     margin-left: 1%;
     border-radius: 6px;
-    padding: 0.1% 3.2%;
 }
