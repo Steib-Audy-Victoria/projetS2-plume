@@ -48,10 +48,16 @@
 
 .ff>input {
     padding: 2%;
+    font-family: var(--font-Baloo);
+    color: var(--blanc);
+    font-size: var(--h3);
 }
 
 .ff>textarea {
     padding: 2%;
+    font-family: var(--font-Baloo);
+    color: var(--blanc);
+    font-size: var(--h3);
 }
 
 .ff > button {
