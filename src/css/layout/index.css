@@ -17,13 +17,13 @@
     color: var(--gris-clair);
     border: solid 1px var(--gris-clair);
     border-radius: 5px;
-    padding: 1%;
+    padding: 1.1%;
     margin-left: 5%;
 }
 
 .mail > ::placeholder {
     font-family: var(--font-Baloo);
-    font-size: var(--micro-bouton);
+    font-size: var(--h3);
 }
 
 .mail > button {

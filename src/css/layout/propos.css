@@ -1,3 +1,9 @@
+.fond_p {
+    background-image: url("../../../public/img/plume2.svg");
+    background-repeat: no-repeat;
+    background-position: 50px 50px;
+}
+
 .p1 {
     grid-row: 1/1;
 }
