@@ -5,7 +5,6 @@
     background-position: 100px 20px;
 }
 
-
 .id1 {
     grid-column: 1/1;
 }
@@ -16,9 +15,15 @@
 .mail > input {
     font-family: var(--font-Baloo);
     color: var(--gris-clair);
+    border: solid 1px var(--gris-clair);
     border-radius: 5px;
     padding: 1%;
     margin-left: 5%;
+}
+
+.mail > ::placeholder {
+    font-family: var(--font-Baloo);
+    font-size: var(--micro-bouton);
 }
 
 .mail > button {

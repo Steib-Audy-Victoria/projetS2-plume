@@ -46,10 +46,17 @@
 
 .ttfc > input {
     font-family: var(--font-Baloo);
-    background-color: var(--gris-clair);
+    background-color: var(--blanc);
+    border: none;
     color: var(--gris);
     border-radius: 6px;
     padding: 0.3%;
+}
+
+.ttfc > ::placeholder {
+    color: var(--gris);
+    font-family: var(--font-Baloo);
+    font-size: var(--micro-bouton);
 }
 
 .ttfc > button {
@@ -58,5 +65,5 @@
     color: var(--blanc);
     margin-left: 1%;
     border-radius: 6px;
-    padding: 0.5% 3%;
+    padding: 0% 3%;
 }

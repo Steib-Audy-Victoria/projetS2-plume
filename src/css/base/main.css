@@ -13,7 +13,7 @@
   grid-gap: 5px;
 }
 
-/* Les règles typographiques générales qui s'appliquent à tout le site */
+/* Les règles générales qui s'appliquent à tout le site */
 .padding_base {
   padding: var(--space1x);
 }
@@ -64,6 +64,7 @@ legend {
 .a_none {
   text-decoration: none;
 }
+
 
 /* Les règles typographiques générales des titres */
 h1 {

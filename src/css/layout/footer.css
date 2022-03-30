@@ -31,14 +31,19 @@
     color: var(--gris)
 }
 
-.ff > label, .ff>input, .ff > textarea{
+.ff>input, .ff > textarea{
     display: block;
-    font-family: var(--font-Baloo);
-    background-color: var(--gris);
-    color: var(--blanc);
     border: none;
+    background-color: var(--gris);
+    opacity: 80%;
     border-radius: 5px;
     margin: 5% 0%;
+}
+
+.ff>::placeholder {
+    font-family: var(--font-Baloo);
+    font-size: var(--micro-bouton);
+    color: var(--blanc);
 }
 
 .ff>input {
@@ -59,6 +64,7 @@
     padding: 2% 15%;
     border-radius: 8px;
 }
+
 
 .f2h {
     text-align: right;
