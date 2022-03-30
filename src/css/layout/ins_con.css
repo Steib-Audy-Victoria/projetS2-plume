@@ -77,7 +77,7 @@
     font-size: var(--micro-bouton);   
 }
 
-.form_btn >p {
+.form_btn >span {
     width: 200px;
     margin-left: 10px;
     color: var(--gris);
