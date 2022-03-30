@@ -14,7 +14,7 @@
 }
 
 /* Les règles typographiques générales qui s'appliquent à tout le site */
-main {
+.padding_base {
   padding: var(--space1x);
 }
 
@@ -38,7 +38,7 @@ legend {
 }
 
 .margin {
-  margin: 8% 0%;
+  margin: 5% 0%;
 }
 
 .margin2 {
