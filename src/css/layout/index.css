@@ -1,10 +1,9 @@
 /*mise en forme en général de la page d'accueil*/
-.fond_ligne {
+.fond {
     background-image: url("../../../public/img/ligne_plume.svg");
     background-repeat: no-repeat;
     background-position: 100px 140px;
 }
-
 
 
 .id1 {

@@ -38,8 +38,15 @@ legend {
 }
 
 .margin {
-  margin-top: 8%;
-  margin-bottom: 8%;
+  margin: 8% 0%;
+}
+
+.margin2 {
+  margin: 10% 0%;
+}
+
+.margin3 {
+  margin: 15% 0%;
 }
 
 .marge_left {
@@ -84,6 +91,9 @@ h3 {
   font-weight: 500;
 }
 
+.title_p {
+    padding-left: 1%;
+}
 
 /* Annuler la mise en forme des bouton qu'applique le navigateur. */
 button {
