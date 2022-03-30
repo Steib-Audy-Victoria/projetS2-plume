@@ -6,6 +6,13 @@
     padding-left: 8%;
 }
 
+.ml> address{
+    font-family: var(--font-Baloo);
+    font-size: var(--paragraphe);
+    font-weight: 500;
+    padding-left: 8%;
+}
+
 .mla {
     color: var(--pourpre);
 }
