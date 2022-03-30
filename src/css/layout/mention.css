@@ -6,6 +6,10 @@
     padding-left: 8%;
 }
 
+.mla {
+    color: var(--pourpre);
+}
+
 .ml {
     margin-bottom: 5%;
 }
