@@ -129,7 +129,7 @@
 }
 
 .f2nav {
-    width: 300px;
+    width: 500px;
 }
 
 .foot2 {
@@ -146,5 +146,7 @@
 
 .f2link {
     color: var(--gris);
+    font-family: var(--font-Baloo);
+    font-size: var(--h3);
 }
 
