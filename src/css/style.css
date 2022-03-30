@@ -17,6 +17,7 @@
 @import url(layout/ins_con.css);
 @import url(layout/soutenir.css);
 @import url(layout/propos.css);
+@import url(layout/mention.css);
 
 /*components*/
 @import url(components/card.css);
