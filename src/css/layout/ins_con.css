@@ -44,6 +44,7 @@
     background-color: var(--orange);
     color: var(--blanc);
     font-family: var(--font-Baloo);
+    font-size: var(--bouton-formulaire);
     border-radius: 6px;
     padding: 2% 58%;
 }
@@ -54,6 +55,7 @@
     background-color: var(--rouge);
     color: var(--blanc);
     font-family: var(--font-Baloo);
+    font-size: var(--bouton-formulaire);
     border-radius: 6px;
     padding: 5%;
 }
@@ -89,6 +91,7 @@
     text-decoration: none;
     color: var(--blanc);
     background-color: var(--rouge);
+    font-size: var(--bouton-formulaire);
     border-radius: 6px;
     padding: 4px 90px;
 }
@@ -98,6 +101,7 @@
     align-items: center;
     justify-content: center;
     color: var(--gris3);
+    font-size: var(--micro);
 }
 
 .ill_form {
